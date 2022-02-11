@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webjob6", "webjob6\webjob6.csproj", "{EEBE6BFE-008B-4030-AAF5-23572184EC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webjob6.tests", "webjob6.tests\webjob6.tests.csproj", "{37BE8258-1B28-439D-8405-1FEFFBEC4766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEBE6BFE-008B-4030-AAF5-23572184EC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBE6BFE-008B-4030-AAF5-23572184EC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBE6BFE-008B-4030-AAF5-23572184EC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBE6BFE-008B-4030-AAF5-23572184EC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BE8258-1B28-439D-8405-1FEFFBEC4766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BE8258-1B28-439D-8405-1FEFFBEC4766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BE8258-1B28-439D-8405-1FEFFBEC4766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BE8258-1B28-439D-8405-1FEFFBEC4766}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BAE676A-630E-40F0-AE32-8F844F08E0EB}
+	EndGlobalSection
+EndGlobal
