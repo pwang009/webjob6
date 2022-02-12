@@ -30,15 +30,14 @@ namespace webjob6
         {
             var jsonData = JsonSerializer.Serialize<T>(obj);
             var msg = new BinaryData(jsonData.CompressGZip());
-            CancellationTokenSource cts = new CancellationTokenSource();
 
             try
             {
                 // set MessageEncoding to None, otherwise, it is defaulted as Base64
                 var queue = new QueueClient(_connString, _queueName,
-                    new QueueClientOptions() { MessageEncoding = QueueMessageEncoding.None });
+                    new QueueClientOptions() { MessageEncoding = QueueMessageEncoding.Base64 });
 
-                await queue.SendMessageAsync(new BinaryData(jsonData));
+                await queue.SendMessageAsync(msg);
                 Console.WriteLine($"message sent to queue {_queueName}");
             }
             catch (Exception ex)
